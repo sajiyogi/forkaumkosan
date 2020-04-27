@@ -8,7 +8,7 @@
 include 'tri_req.php';
 
 $tri = new tri();
-$imei = "352810060998859";
+$imei = "352810060998842";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
 $otp = $tri->request_otp($msisdn,$imei);
